@@ -1,0 +1,9 @@
+{
+    "error_reference_id": "d133e724-2bf9-4323-9358-d493b5caa180",
+    "errors": [
+        {
+            "error_code": "800002",
+            "error_message": "Idempotency-Key header not found for enforced idempotent endpoint."
+        }
+    ]
+}

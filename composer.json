@@ -9,12 +9,17 @@
     "license": "MIT",
     "require": {
         "php": "^8.0.2",
+        "ext-curl": "*",
+        "ext-json": "*",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^9.19",
         "laravel/sanctum": "^3.0",
         "laravel/tinker": "^2.7",
         "laravel/ui": "^4.2",
-        "league/oauth2-client": "^2.6"
+        "league/oauth2-client": "^2.6",
+        "mpdf/mpdf": "^8.1",
+        "phpmailer/phpmailer": "^6.7",
+        "stripe/stripe-php": "^10.5"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
